@@ -18,6 +18,7 @@ a {
 }
 
 .header {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,15 +31,61 @@ a {
 
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .header-menu a {
   padding: 16px 0;
-
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  position: relative;
 }
 
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  /* Pega o 100% width do elemento pai */
+  width: 0;
+  margin-top: 4px;
+  background-color: #fff;
+  transition: 0.3s;
+  position: absolute;
+}
+.header-menu a:hover:after {
+  width: 100%;
+}
 
+@media (max-width: 800px) {
+  .header-menu a {
+    background-color: #111;
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .header-menu a:hover {
+    background-color: #2e2e2e;
+  }
+  .header-menu a:after {
+    display: none;
+  }
+  .header-menu {
+    gap:20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-menu a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .header-menu {
+    gap:12px;
+    margin-top: 10px;
+  }
+}
 
 
 
