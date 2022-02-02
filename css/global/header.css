@@ -26,7 +26,6 @@
   content: "";
   display: block;
   height: 2px;
-  /* Pega o 100% width do elemento pai */
   width: 0;
   margin-top: 4px;
   background-color: var(--cor-0);
@@ -34,7 +33,8 @@
   position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
