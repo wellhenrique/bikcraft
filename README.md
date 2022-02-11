@@ -10,8 +10,24 @@ Durante o curso, aprendemos todos os princípios básicos de UI/UX Design e codi
 ## 🚀 Tecnologias e ferramentas utilizadas
 - **HTML5**
 - **CSS3**
+- **Javascript**
 
 ---
+
+### 1 - Ao acessar o projeto, você verá esta página inicial.
+![Homepage image](https://github.com/wellhenrique/bikcraft/blob/master/img/readme/pagina_inicial.png)
+
+
+
+### 2 - Essas são as bicicletas que estão disponíveis no site
+![Homepage image](https://github.com/wellhenrique/bikcraft/blob/master/img/readme/biks_inicial.png)
+
+
+
+### 1 - Essa é a página de orçamento
+![Homepage image](https://github.com/wellhenrique/bikcraft/blob/master/img/readme/orcamento.png)
+
+
 
 ## 🔧 Como executar o projeto
 
@@ -24,7 +40,7 @@ cd bikcraft
 ```
 Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
----
+## 📝 Ainda faltam alguns detalhes no projeto
 
 ## 📝 Licença
 
