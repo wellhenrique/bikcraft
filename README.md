@@ -14,6 +14,8 @@ Durante o curso, aprendemos todos os princípios básicos de UI/UX Design e codi
 
 ---
 
+**Aqui está a pagina online[Pagina Inicial](https://wellhenrique.github.io/bikcraft/).**
+
 ### 1 - Ao acessar o projeto, você verá esta página inicial.
 ![Homepage image](https://github.com/wellhenrique/bikcraft/blob/master/img/readme/pagina_inicial.png)
 
